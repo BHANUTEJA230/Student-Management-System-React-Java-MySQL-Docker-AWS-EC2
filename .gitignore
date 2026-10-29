@@ -1,0 +1,45 @@
+# Compiled Java class files and build artifacts
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Node dependencies and frontend production builds
+node_modules/
+dist/
+build/
+.pnp
+.pnp.js
+
+# Environment and sensitive credential files
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.id_rsa
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE and Editor configurations
+.idea/
+*.iml
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Docker / local data
+mysql_data/
